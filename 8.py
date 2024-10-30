@@ -5,37 +5,13 @@ model = YOLO('/Users/petrlutkin/Desktop/cvr_october_29_30/runs/detect/train/weig
 
 
 results = model.predict(
-    source='/Users/petrlutkin/Desktop/cvr_october_29_30/archive/test_dataset/test_images/00105.jpg',
+    source='/Users/petrlutkin/Desktop/cvr_october_29_30/831b783d-56e0-5509-b00f-3b9e6c0600e6.jpeg',
     conf=0.2,
     save=True
 )
 
 results = model.predict(
-    source='/Users/petrlutkin/Desktop/cvr_october_29_30/archive/test_dataset/test_images/02924.jpg',
-    conf=0.2,
-    save=True
-)
-
-results = model.predict(
-    source='/Users/petrlutkin/Desktop/cvr_october_29_30/archive/test_dataset/test_images/02833.jpg',
-    conf=0.2,
-    save=True
-)
-
-results = model.predict(
-    source='/Users/petrlutkin/Desktop/cvr_october_29_30/archive/test_dataset/test_images/02975.jpg',
-    conf=0.2,
-    save=True
-)
-
-results = model.predict(
-    source='/Users/petrlutkin/Desktop/cvr_october_29_30/archive/test_dataset/test_images/02631.jpg',
-    conf=0.2,
-    save=True
-)
-
-results = model.predict(
-    source='/Users/petrlutkin/Desktop/cvr_october_29_30/archive/test_dataset/test_images/00074.jpg',
+    source='/Users/petrlutkin/Desktop/cvr_october_29_30/6450209278.jpg',
     conf=0.2,
     save=True
 )
